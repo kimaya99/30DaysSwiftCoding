@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Stop Watch View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="StopWatchViewController" customModule="TimerApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00.00.00.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SjV-U3-SBj">
+                                <rect key="frame" x="25" y="180" width="325" height="69"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="SNk-WO-CLO"/>
+                                    <constraint firstAttribute="width" constant="325" id="Ulv-Ev-cnB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="57"/>
+                                <color key="textColor" red="0.97848526550000003" green="0.97848526550000003" blue="0.97848526550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vqO-vQ-5ev">
+                                <rect key="frame" x="50" y="339" width="100" height="50"/>
+                                <color key="backgroundColor" red="0.77782950129999995" green="0.23210401319999999" blue="0.21072676940000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="G88-Kc-hev"/>
+                                    <constraint firstAttribute="width" constant="100" id="zKT-xa-FrW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Pause">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="pauseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0cM-30-Rga"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p21-Hk-amF">
+                                <rect key="frame" x="225" y="339" width="100" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.68177513332523976" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="7Uj-ux-ZuN"/>
+                                    <constraint firstAttribute="height" constant="50" id="sXf-Dp-WE2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <size key="titleShadowOffset" width="12" height="0.0"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="startButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WaX-zR-XfS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwK-vv-pCL">
+                                <rect key="frame" x="245" y="70" width="100" height="50"/>
+                                <color key="backgroundColor" red="0.77782950129533679" green="0.69205117377981062" blue="0.22600891756392918" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="contentStretch" x="0.20000000000000001" y="0.0" width="1" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="KBs-Mk-PSe"/>
+                                    <constraint firstAttribute="width" constant="100" id="Yrn-xk-BjR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hcC-rC-CIM"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S0s-Ld-T4Q">
+                                <rect key="frame" x="160" y="614.5" width="54" height="27.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="kimaya">
+                                        <attributes>
+                                            <color key="NSColor" red="0.97848526550000003" green="0.97848526550000003" blue="0.97848526550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="17" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.055982836787564771" green="0.055982836787564771" blue="0.055982836787564771" alpha="0.70736135563380287" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="S0s-Ld-T4Q" secondAttribute="bottom" constant="25" id="2ir-J1-Zzp"/>
+                            <constraint firstItem="vqO-vQ-5ev" firstAttribute="top" secondItem="SjV-U3-SBj" secondAttribute="bottom" constant="90" id="9J5-ot-7i2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SjV-U3-SBj" secondAttribute="trailing" constant="25" id="E80-QI-ljh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kwK-vv-pCL" secondAttribute="trailing" constant="30" id="Nvl-oF-ccI"/>
+                            <constraint firstItem="vqO-vQ-5ev" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="PHB-PE-jxZ"/>
+                            <constraint firstItem="S0s-Ld-T4Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="160" id="QgQ-QN-22Z"/>
+                            <constraint firstItem="SjV-U3-SBj" firstAttribute="top" secondItem="kwK-vv-pCL" secondAttribute="bottom" constant="60" id="TAP-eJ-uVy"/>
+                            <constraint firstItem="p21-Hk-amF" firstAttribute="top" secondItem="SjV-U3-SBj" secondAttribute="bottom" constant="90" id="lIj-lQ-5rm"/>
+                            <constraint firstItem="kwK-vv-pCL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="rbT-03-hYP"/>
+                            <constraint firstItem="SjV-U3-SBj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="tKp-fR-1sZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="p21-Hk-amF" secondAttribute="trailing" constant="50" id="xGV-0F-Ps5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="S0s-Ld-T4Q" secondAttribute="trailing" constant="161" id="xi9-IG-fhg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="pause" destination="vqO-vQ-5ev" id="EhP-37-sVv"/>
+                        <outlet property="reset" destination="kwK-vv-pCL" id="Uwz-Fc-lsx"/>
+                        <outlet property="start" destination="p21-Hk-amF" id="fXb-pU-RDG"/>
+                        <outlet property="timerLabel" destination="SjV-U3-SBj" id="k8G-sl-e6n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="125.59999999999999" y="114.69265367316342"/>
+        </scene>
+    </scenes>
+</document>

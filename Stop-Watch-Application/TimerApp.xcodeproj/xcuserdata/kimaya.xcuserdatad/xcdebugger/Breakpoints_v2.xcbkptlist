@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TimerApp/StopWatchViewController.swift"
+            timestampString = "560927689.147349"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "StopWatchViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TimerApp.StopWatchViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; TimerApp.StopWatchViewController"
+                  moduleName = "TimerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kimaya/Desktop/TimerApp/TimerApp/StopWatchViewController.swift"
+                  timestampString = "560925850.603386"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TimerApp.StopWatchViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; TimerApp.StopWatchViewController"
+                  moduleName = "TimerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kimaya/Desktop/TimerApp/TimerApp/StopWatchViewController.swift"
+                  timestampString = "560925850.606456"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "59">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TimerApp.StopWatchViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;TimerApp.StopWatchViewController&gt;"
+                  moduleName = "TimerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kimaya/Desktop/TimerApp/TimerApp/StopWatchViewController.swift"
+                  timestampString = "560925850.611167"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TimerApp.StopWatchViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;TimerApp.StopWatchViewController&gt;"
+                  moduleName = "TimerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kimaya/Desktop/TimerApp/TimerApp/StopWatchViewController.swift"
+                  timestampString = "560925850.614292"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TimerApp.StopWatchViewController.__deallocating_deinit"
+                  moduleName = "TimerApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kimaya/Desktop/TimerApp/TimerApp/StopWatchViewController.swift"
+                  timestampString = "560925850.6168669"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TimerApp/StopWatchViewController.swift"
+            timestampString = "560927689.148271"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TimerApp/StopWatchViewController.swift"
+            timestampString = "560927689.1487091"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
